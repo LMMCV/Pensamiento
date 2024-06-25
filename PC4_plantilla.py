@@ -46,7 +46,7 @@ col1, col2 = st.columns(2)
 # Las columnas creadas se asignan a las variables col1 y col2.
 
 # En la primera columna colocamos la imagen
-col1.image("DSC_0064.jpg", caption='"El código es poesía... escrita en un idioma que nadie realmente entiende, ni siquiera el poeta"', width=300)
+col1.image("DSC_0064.jpg", caption='El código es poesía... escrita en un idioma que nadie realmente entiende, ni siquiera el poeta', width=300)
 
 # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
 # La función image toma como primer argumento la ruta de la imagen que se va a mostrar. 
@@ -99,8 +99,8 @@ st.markdown("<h2 style='text-align: center;'>Mi experiencia aprendiendo a progra
 
 # Agregar un  texto para la respuesta
 texto_2 = """
-¡Aprender Python ha sido una experiencia, digamos... interesante! Al principio, pensé que sería sólo otra habilidad más, interesante de aprender. Pero desde ese primer "Hola Mundo" hasta ahora, cada línea de código ha sido como descifrar un enigma. Al principio, me sentía perdido, tratando de descubrir el significado detrás de cada "while" y "for". Pero conforme fui avanzando, el mundo de los bucles y las listas se fue volviendo cada vez más amigable (o al menos eso intenta parecer) ¿Quién diría que un simple indentado podía cambiar mi forma de pensar? Sin embargo, a medida que me adentraba en bucles, anidados y funciones, descubrí que Python tiene ese encanto sutil de hacerte sentir inteligente cuando tu código por fin funciona (o al menos no explota en tu cara).
-He recorrido un camino lleno de "syntax errors" y "indentation errors" que, sinceramente, me han enseñado más que cualquier tutorial de YouTube.
+Aprender Python ha sido una experiencia, digamos... interesante. Al principio, pensé que sería sólo otra habilidad más, interesante de aprender. Pero desde ese primer 'Hola Mundo' hasta ahora, cada línea de código ha sido como descifrar un enigma. Al principio, me sentía perdido, tratando de descubrir el significado detrás de cada 'while' y 'for'. Pero conforme fui avanzando, el mundo de los bucles y las listas se fue volviendo cada vez más amigable (o al menos eso intenta parecer) ¿Quién diría que un simple indentado podía cambiar mi forma de pensar? Sin embargo, a medida que me adentraba en bucles, anidados y funciones, descubrí que Python tiene ese encanto sutil de hacerte sentir inteligente cuando tu código por fin funciona (o al menos no explota en tu cara).
+He recorrido un camino lleno de 'syntax errors' y 'indentation errors' que, sinceramente, me han enseñado más que cualquier tutorial de YouTube.
 """
 
 # Mostramos el texto
